@@ -5,19 +5,14 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
- * Unit test for reversing a string that contains special characters.
+ * Reverse a string that may contain special characters and Unicode (e.g., emojis).
  *
- * <p>This test class is designed to verify the correctness of a method that reverses a string while
- * preserving the original positions of special characters.
- *
- * @author Zahid Khan.
+ * <p>Example: <br>
+ * Input: "Hello world! This is a test. 😅" <br>
+ * Output: "😅 .tset a si sihT !dlrow olleH"
  */
 class H_ReverseStringWithSpecialCharactersTest {
-  /**
-   * Test case for reversing a string with special characters.
-   *
-   * @todo Implement this test method
-   */
+
   @Test
   @Disabled
   void testReverseStringWithSpecialCharactersTest() {

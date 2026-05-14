@@ -7,14 +7,13 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
- * Given A String
- * Find the highest number of vowels present in a word.
+ * Given a string, find the highest number of vowels present in any single word.
  *
- * Example:
- * INPUT: HELLO HOW ARE YOU
- * OUTPUT: 2
- * EXPLANATION: HELLO contains 2 vowels.
- * */
+ * <p>Example: <br>
+ * Input: "HELLO HOW ARE YOU" <br>
+ * Output: 2 <br>
+ * Explanation: "HELLO" contains 2 vowels (E, O), which is the most of any word in the string.
+ */
 class P_WordWithMaxNumberOfVowelsTest {
 
   @Disabled

@@ -6,10 +6,13 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
- * Given a String find the first non-repeating character:
+ * Find the first character in a string that does not repeat anywhere else in the string.
+ * (Classic Google interview question)
  *
- * String = The quick brown fox jumps over the lazy dog, find the first non-repeated character.
- * (Google interview)
+ * <p>Example: <br>
+ * Input: "The quick brown fox jumps over the lazy dog, find the first non repeated character." <br>
+ * Output: 'T' <br>
+ * Explanation: 'T' appears only once and is the first such character from the left.
  */
 class N_FirstNonRepeatingCharacterTest {
     @Test

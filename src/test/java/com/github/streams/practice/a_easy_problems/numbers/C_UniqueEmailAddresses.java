@@ -7,8 +7,13 @@ import org.junit.jupiter.api.Test;
 
 /**
  * Imagine you’re building a registration system for a website. Sometimes, due to user error or
- * system retries, duplicate emails get stored in your list.
- * You want to keep only unique email addresses before sending a newsletter.
+ * system retries, duplicate emails get stored in your list. You want to keep only unique email
+ * addresses before sending a newsletter.
+ *
+ * <p>Example: <br>
+ * Input: ["john.doe@example.com", "alice@example.com", "john.doe@example.com",
+ * "bob@example.com", "alice@example.com"] <br>
+ * Output: ["john.doe@example.com", "alice@example.com", "bob@example.com"]
  */
 class C_UniqueEmailAddresses {
   @Test

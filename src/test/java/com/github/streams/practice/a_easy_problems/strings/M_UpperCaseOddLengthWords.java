@@ -5,12 +5,17 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Given a list of words, filter out only the words with an odd character length and convert them
+ * to uppercase.
+ *
+ * <p>Example: <br>
+ * Input: ["alfa", "bravo", "charlie", "delta", "echo", "foxtrot"] <br>
+ * Output: ["BRAVO", "CHARLIE", "DELTA", "FOXTROT"] <br>
+ * Explanation: "alfa" (4) and "echo" (4) have even lengths and are excluded.
+ */
 public class M_UpperCaseOddLengthWords {
 
-  /**
-   * Given a list of words, create an output list that contains only the odd-length words, converted
-   * to upper case.
-   */
   @Test
   @Disabled
   public void uppercaseOddLengthWords() {

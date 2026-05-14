@@ -5,6 +5,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Find the second-largest word (by character length) in a given string.
+ *
+ * <p>Example: <br>
+ * Input: "I am interested123455 to grow in my organization" <br>
+ * Output: "organization" <br>
+ * Explanation: "interested123455" is the longest (16 chars); "organization" is second (12 chars).
+ */
 class I_SecondHighestWordTest {
   @Test
   @Disabled()

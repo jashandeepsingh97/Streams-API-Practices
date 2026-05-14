@@ -5,6 +5,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Reverse the digits of an integer.
+ *
+ * <p>Example: <br>
+ * Input: 12345 <br>
+ * Output: 54321
+ */
 class H_ReverseANumber {
 
   @Test

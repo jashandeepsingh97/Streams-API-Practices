@@ -8,17 +8,13 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
- * Calculates the length of city names that start with 'm' or 'M'. <br>
- * <br>
+ * Calculates the length of city names that start with 'm' or 'M' and returns a map of city name
+ * to its length.
  *
- * <h3>Example Cities</h3>
- *
- * <ul>
- *   <li>Mumbai
- *   <li>Munnar
- *   <li>Chennai
- *   <li>Hyderabad
- * </ul>
+ * <p>Example: <br>
+ * Input: ["Mumbai", "Munnar", "Chennai", "Hyderabad"] <br>
+ * Output: {"Mumbai"=6, "Munnar"=6} <br>
+ * Explanation: Only cities starting with 'M' or 'm' are included.
  */
 class C_LengthOfCityTest {
   @Test

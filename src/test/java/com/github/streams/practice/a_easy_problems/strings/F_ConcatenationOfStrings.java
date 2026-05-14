@@ -5,11 +5,15 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Given a list of strings, concatenate all strings separated by a comma using Java Streams.
+ *
+ * <p>Example: <br>
+ * Input: ["Hellow", "World", "Hello", "World"] <br>
+ * Output: "Hellow,World,Hello,World"
+ */
 class F_ConcatenationOfStrings {
-  /**
-   * Given a list of strings, write a method to concatenate all the strings in the list, separated
-   * by a comma, using Java 8 Streams.
-   */
+
   @Test
   @Disabled
   void testConcatenationOfStrings() {

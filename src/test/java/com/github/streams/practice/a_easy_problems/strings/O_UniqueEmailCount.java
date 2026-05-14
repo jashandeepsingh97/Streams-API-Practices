@@ -9,11 +9,15 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-/*
- * There is a list of Employees and Employee object has a field called e-mail.
+/**
+ * Given a list of employees, each with an email address, extract all unique email domains and
+ * count how many employees use each domain.
  *
- * Find the list of domains ( gmail.com, yahoo.com..) and the no of occurrences for each domain?
- * */
+ * <p>Example: <br>
+ * Input: employees with emails ["alice@gmail.com", "bob@yahoo.com", "carol@gmail.com",
+ * "dave@hotmail.com"] <br>
+ * Output: {"gmail.com"=2, "yahoo.com"=1, "hotmail.com"=1}
+ */
 class O_UniqueEmailCount {
   @Test
   @Disabled

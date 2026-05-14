@@ -11,6 +11,9 @@ import org.junit.jupiter.api.Test;
  * F = (C * 9/5) + 32.
  * This requires using the map function to transform each element and ensure the result is collected into
  * a List<Double>.
+ * <p>Example: <br>
+ * Input: [0, 10, 25, 37, 100] <br>
+ * Output: [32.0, 50.0, 77.0, 98.6, 212.0]
  */
 class B_MapCelsiusToFahrenheit {
 

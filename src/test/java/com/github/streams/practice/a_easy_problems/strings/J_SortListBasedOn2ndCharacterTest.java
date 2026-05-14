@@ -7,15 +7,16 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Sort a list of strings alphabetically by their second character.
+ *
+ * <p>Example: <br>
+ * Input: ["banana", "apple", "cherry", "date"] <br>
+ * Output: ["date", "banana", "cherry", "apple"] <br>
+ * Explanation: Sorted by second character: 'a'(date), 'a'(banana), 'h'(cherry), 'p'(apple).
+ */
 class J_SortListBasedOn2ndCharacterTest {
-  /**
-   * This test creates a list of random names and passes it to the sortListBasedOn2ndCharacter
-   * method. The expected result is compared to the actual result to verify the correctness of the
-   * method.
-   *
-   * @author @ZahidKhan
-   * @see StringProblemsSolution#sortListBasedOn2ndCharacter(List)
-   */
+
   @Test
   @Disabled
   void testSortListBasedOn2ndCharacter() {

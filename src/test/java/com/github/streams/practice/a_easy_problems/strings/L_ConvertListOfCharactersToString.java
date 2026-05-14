@@ -5,6 +5,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Convert a list of Character objects into a single concatenated String.
+ *
+ * <p>Example: <br>
+ * Input: ['A', 'B', 'C', 'D', ..., 'Z'] <br>
+ * Output: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+ */
 public class L_ConvertListOfCharactersToString {
   @Test
   @Disabled
