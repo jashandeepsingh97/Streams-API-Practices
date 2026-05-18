@@ -26,10 +26,10 @@ Output
 <table>
 <tr>
 <td style="text-align: left;">
-<a href="./D%20Primitive%20Streams.md">Previous: D Primitive Streams.md</a>
+<a href="./B%20Characteristics%20Of%20A%20Stream.md">Previous: B Characteristics Of A Stream.md</a>
 </td>
 <td style="text-align: right;">
-<a href="./F%20Stream%20Vs%20Collection.md">Next: F Stream Vs Collection.md</a>
+<a href="./D%20How%20To%20Create%20A%20Stream%3F.md">Next: D How To Create A Stream?.md</a>
 </td>
 </tr>
 </table>

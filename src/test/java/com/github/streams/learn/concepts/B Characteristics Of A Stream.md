@@ -15,7 +15,7 @@
 <a href="./A%20What%20Is%20A%20Stream%3F.md">Previous: A What Is A Stream?.md</a>
 </td>
 <td style="text-align: right;">
-<a href="./C%20How%20To%20Create%20A%20Stream%3F.md">Next: C How To Create A Stream?.md</a>
+<a href="./C%20Structure%20Of%20A%20Stream%20Pipeline.md">Next: C Structure Of A Stream Pipeline.md</a>
 </td>
 </tr>
 </table>

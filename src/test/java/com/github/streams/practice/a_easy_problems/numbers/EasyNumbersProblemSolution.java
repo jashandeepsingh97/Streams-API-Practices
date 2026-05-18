@@ -44,7 +44,7 @@ public class EasyNumbersProblemSolution {
   public static List<List<Integer>> convertInt2DArrayToList(int[][] input) {
     return Arrays.stream(input)
         .map(row -> Arrays.stream(row).boxed().collect(Collectors.toList()))
-        .collect(Collectors.toList());
+        .toList();
   }
 
   public static double meanOfNumbers(List<Integer> input) {
